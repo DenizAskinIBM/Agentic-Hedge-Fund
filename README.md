@@ -96,10 +96,14 @@ Alternatively, store these in a .env file in the same directory.
 
 5. **Run Streamlit:**
 ```bash
-streamlit run your_script.py
+streamlit run /path/Agentic_AI_Hedgefund_Chatbot.py.py
 ```
-Replace your_script.py with the actual script name if you changed it.
+Replace Agentic_AI_Hedgefund_Chatbot.py with the actual script name if you changed it.
 
+If you get a "No module named yfinance" error, please try:
+```bash
+"/Library/Frameworks/Python.framework/Versions/3.11/bin/python3" -m pip install yfinance --upgrade
+```
 ⸻
 
 **Usage Instructions**
