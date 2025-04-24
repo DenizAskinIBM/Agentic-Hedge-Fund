@@ -67,7 +67,7 @@ flowchart TD
 ```
 ⸻
 
-Installation and Setup
+## Installation and Setup
 1.	**Clone the repository:**
 ```bash
 git clone https://github.com/your-username/agentic-hedge-fund-chatbot.git
@@ -106,7 +106,7 @@ If you get a "No module named yfinance" error, please try:
 ```
 ⸻
 
-**Usage Instructions**
+## Usage Instructions
 ```bash
 	1.	Open the Streamlit app in your browser (usually http://localhost:8501).
 	2.	Upload a PDF file that you want to query (for example, an official investment policy document).
@@ -126,7 +126,7 @@ If you get a "No module named yfinance" error, please try:
 ```
 ⸻
 
-Key Components
+## Key Components
 
 **Disabling File Watchers**
 ```bash
@@ -192,7 +192,7 @@ def reporter_agent(user_question: str, chatbot_output: str, td3_output: str, hrp
 ```
 ⸻
 
-**Extending the Project**
+## Extending the Project
 ```bash
 	- Support More Assets or different data sources in HRP.
 	- Enhanced RL Environments with more reward shaping or more assets.
@@ -201,14 +201,14 @@ def reporter_agent(user_question: str, chatbot_output: str, td3_output: str, hrp
 ```
 ⸻
 
-**Contributing**
+## Contributing
 ```bash
 Contributions are welcome! Feel free to open issues, add pull requests, or fork this repository to make improvements.
 Ensure any modifications maintain clarity, modular structure, and consistent code formatting.
 ```
 ⸻
 
-**License**
+## License
 ```bash
 This project is licensed under the MIT License.
 Feel free to modify and use it for personal or commercial purposes, provided that this license is retained.
